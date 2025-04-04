@@ -1,43 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anaton</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      id="redux2-extendify-styles-css"
+      href="./style/handle.css"
+      media="all"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link
+      rel="stylesheet"
+      id="redux-extendify-styles-css"
+      href="./style/redux-extendify-styles.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="style/contact-form-7.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="style/bootstrap.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="fontawesome-css"
+      href="style/fontawesome.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="themify-icons-css"
+      href="style/themify-icons.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elegant-icons-css"
+      href="style/elegant-icons.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="flaticons-css"
+      href="style/flaticons.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="magnific-popup-css"
+      href="style/magnific-popup.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-bundle-css"
+      href="style/swiper-bundle.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="animate-css"
+      href="style/animate.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="anaton-validnavs-css"
+      href="style/anaton-validnavs.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="anaton-helper-css"
+      href="style/anaton-helper.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="anaton-unittest-css"
+      href="style/anaton-unittest.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="anaton-style-css"
+      href="style/anaton-style.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="anaton-fonts-css"
+      href="style/anaton-fonts.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-css"
+      href="style/elementor-icons.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="style/elementor-frontend.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-css"
+      href="style/swiper.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-46-css"
+      href="style/elementor-post-46.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-global-css"
+      href="style/elementor-global.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="style/google-fonts-1.css"
+      media="all"
+    />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <script src="scripts/jquery-core.js" id="jquery-core-js"></script>
+    <script src="scripts/jquery-migrate.js" id="jquery-migrate-js"></script>
+    <link
+      rel="https://api.w.org/"
+      href="https://wpriverthemes.com/anaton/wp-json/"
+    />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="https://wpriverthemes.com/anaton/wp-json/wp/v2/pages/47"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://wpriverthemes.com/anaton/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.3.5" />
+    <link rel="canonical" href="https://wpriverthemes.com/anaton/" />
+    <link rel="shortlink" href="https://wpriverthemes.com/anaton/" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="https://wpriverthemes.com/anaton/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwpriverthemes.com%2Fanaton%2F"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="https://wpriverthemes.com/anaton/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwpriverthemes.com%2Fanaton%2F&amp;format=xml"
+    />
+    <meta name="generator" content="Redux 4.4.7" />
+    <meta
+      name="generator"
+      content="Elementor 3.16.4; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+    />
+    <style>
+      .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    </style>
+    <script
+      src="https://wpriverthemes.com/anaton/wp-includes/js/wp-emoji-release.min.js?ver=6.3.5"
+      defer=""
+    ></script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script src="scripts/swv.js" id="swv-js"></script>
+    <script id="contact-form-7-js-extra">
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/wpriverthemes.com\/anaton\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+      };
+    </script>
+    <script src="scripts/contact-form-7.js" id="contact-form-7-js"></script>
+    <script src="scripts/bootstrap-bundle.js" id="bootstrap-bundle-js"></script>
+    <script src="scripts/jquery-appear.js" id="jquery-appear-js"></script>
+    <script src="scripts/jquery-easing.js" id="jquery-easing-js"></script>
+    <script src="scripts/magnific-popup.js" id="magnific-popup-js"></script>
+    <script src="scripts/modernizr.js" id="modernizr-js"></script>
+    <script src="scripts/swiper.js" id="swiper-js"></script>
+    <script src="scripts/wow.js" id="wow-js"></script>
+    <script src="scripts/progress-bar.js" id="progress-bar-js"></script>
+    <script src="scripts/circle-progress.js" id="circle-progress-js"></script>
+    <script src="scripts/isotope.js" id="isotope-js"></script>
+    <script src="scripts/imagesloaded.js" id="imagesloaded-js"></script>
+    <script
+      src="scripts/jquery-nice-select.js"
+      id="jquery-nice-select-js"
+    ></script>
+    <script src="scripts/count-to.js" id="count-to.js"></script>
+    <script src="scripts/jquery-scrolla.js" id="jquery-scrolla.js"></script>
+    <script src="scripts/ytplayer.js" id="ytplayer.js"></script>
+    <script src="scripts/tweenmax.js" id="tweenmax.js"></script>
+    <script src="scripts/typed.js" id="typed.js"></script>
+    <script src="scripts/anaton-validnavs.js" id="anaton-validnavs.js"></script>
+    <script src="scripts/anaton-main.js" id="anaton-main.js"></script>
+    <script src="scripts/main.js" id="main.js"></script>
+    <script
+      src="scripts/elementor-webpack-runtime.js"
+      id="elementor-webpack-runtime.js"
+    ></script>
+    <script
+      src="scripts/elementor-frontend-modules.js"
+      id="elementor-frontend-modules.js"
+    ></script>
+    <script
+      src="scripts/elementor-waypoints.js"
+      id="elementor-waypoints.js"
+    ></script>
+    <script src="scripts/jquery-ui-core.js" id="jquery-ui-core.js"></script>
+    <script id="elementor-frontend-js-before">
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          download: "Download",
+          downloadImage: "Download image",
+          fullscreen: "Fullscreen",
+          zoom: "Zoom",
+          share: "Share",
+          playVideo: "Play Video",
+          previous: "Previous",
+          next: "Next",
+          close: "Close",
+          a11yCarouselWrapperAriaLabel:
+            "Carousel | Horizontal scrolling: Arrow Left & Right",
+          a11yCarouselPrevSlideMessage: "Previous slide",
+          a11yCarouselNextSlideMessage: "Next slide",
+          a11yCarouselFirstSlideMessage: "This is the first slide",
+          a11yCarouselLastSlideMessage: "This is the last slide",
+          a11yCarouselPaginationBulletMessage: "Go to slide",
+        },
+        is_rtl: false,
+        breakpoints: {
+          xs: 0,
+          sm: 480,
+          md: 768,
+          lg: 1025,
+          xl: 1440,
+          xxl: 1600,
+        },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Mobile Portrait",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Landscape",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablet Portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablet Landscape",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Laptop",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "Widescreen",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+        },
+        version: "3.16.4",
+        is_static: false,
+        experimentalFeatures: {
+          e_dom_optimization: true,
+          e_optimized_assets_loading: true,
+          e_optimized_css_loading: true,
+          additional_custom_breakpoints: true,
+          e_swiper_latest: true,
+          "landing-pages": true,
+        },
+        urls: {
+          assets:
+            "https:\/\/wpriverthemes.com\/anaton\/wp-content\/plugins\/elementor\/assets\/",
+        },
+        swiperClass: "swiper",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          global_image_lightbox: "yes",
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+        },
+        post: {
+          id: 47,
+          title:
+            "Anaton%20%E2%80%93%20SaaS%20Landing%20Page%20WordPress%20Theme",
+          excerpt: "",
+          featuredImage: false,
+        },
+      };
+    </script>
+    <script
+      src="scripts/elementor-frontend.js"
+      id="elementor-frontend.js"
+    ></script>
   </body>
 </html>
